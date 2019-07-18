@@ -48,8 +48,9 @@ ________________________________________________
 - URL: https://localhost:5001/api/messaging/AckBatch
 - Content-Type: application/json
 - Headers: 
-  - Key: Authorization
-  - Value: Bearer (FOLLOWED BY JWT TOKEN WITHOUT BRACKETS)
+  - 1
+    - Key: Authorization
+    - Value: Bearer (JWT TOKEN)
 - Body: none
 
 ________________________________________________
@@ -89,12 +90,12 @@ ________________________________________________
 - URL: https://localhost:5001/api/messaging/EditMsgStatus
 - Content-Type: application/json
 - Headers: 
-  -1
-   -Key: Authorization
-   -Value: Bearer (JWT TOKEN)
-  -2
-   -Key: Content-Type
-   -Value: application/json
+  - 1
+    - Key: Authorization
+    - Value: Bearer (JWT TOKEN)
+  - 2
+    - Key: Content-Type
+    - Value: application/json
 - Body: 
   -[
   
@@ -126,12 +127,12 @@ ________________________________________________
 - URL: https://localhost:5001/api/messaging/MessageDump
 - Content-Type: application/json
 - Headers: 
-  -1
-   -Key: Authorization
-   -Value: Bearer (JWT TOKEN)
-  -2
-   -Key: Content-Type
-   -Value: application/json
+  - 1
+    - Key: Authorization
+    - Value: Bearer (JWT TOKEN)
+  - 2
+    - Key: Content-Type
+    - Value: application/json
 - Body: 
   -{
 	

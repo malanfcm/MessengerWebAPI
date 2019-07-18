@@ -16,8 +16,11 @@ API Keys will be generated at a later stage and Distributed accordingly
 - Headers: none
 - Body:
   - {
+  
       "apiKey": "",
+      
       "token": null
+      
     }
 
 ________________________________________________
@@ -61,9 +64,13 @@ AckBatch API Request:
   -Value: Bearer (JWT TOKEN)
 - Body: 
   - {
+  
       "batchId": (BATCH ID RETURNED FROM GetBatch),
+      
       "batchMessageCount": (BATCH MESSAGE COUNT RETURNED FROM GetBatch),
+      
       "batchNote": ("BATCH NOTE IF ANY")
+      
     }
 
 

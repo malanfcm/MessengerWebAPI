@@ -6,7 +6,7 @@ Postman Collection
 Use Case 7
 ________________________________________________
 
-
+[Contribution guidelines for this project](docs/RXMessengerAPI.docx)
 
 
 

@@ -13,6 +13,10 @@ The below API call
 -URL: https://localhost:5001/api/auth/authenticate
 -Content-Type: application/json
 
+- George Washington
+- John Adams
+- Thomas Jefferson
+
 
 ###### Messenger Web API
 Postman Collection

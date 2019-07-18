@@ -102,7 +102,7 @@ ________________________________________________
     - Key: Content-Type
     - Value: application/json
 - Body: 
-  -[
+  - [
   
         {
             "messageId": (MESSAGE ID TO EDIT STATUS OF),

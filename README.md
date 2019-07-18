@@ -27,10 +27,8 @@ ________________________________________________
 
 ## Messenger Web API
 Postman Collection
-[Use Case 6 / 8 / 10](/RXMessengerAPI.docx)
+[Use Case 6 ](/RXMessengerAPI.docx)
 ________________________________________________
-
-###### Use Case 6
 
 Test API Request:
 
@@ -73,9 +71,11 @@ AckBatch API Request:
       
     }
 
+________________________________________________
 
-
-###### Use Case 8
+Postman Collection
+[Use Case 8 ](/RXMessengerAPI.docx)
+________________________________________________
 
 EditMsgStatus API Request:
 
@@ -87,6 +87,7 @@ EditMsgStatus API Request:
   -Value: Bearer (JWT TOKEN)
 - Body: 
   -[
+  
         {
             "messageId": 1,
             

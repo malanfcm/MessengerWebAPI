@@ -30,7 +30,7 @@ Postman Collection
 [Use Case 6 ](/RXMessengerAPI.docx)
 ________________________________________________
 
-Test API Request:
+###### Test API Request:
 
 - Method: GET
 - URL: https://localhost:5001/api/messaging/Test
@@ -40,8 +40,9 @@ Test API Request:
   -Value: Bearer (FOLLOWED BY JWT TOKEN WITHOUT BRACKETS)
 - Body: none
 
+________________________________________________
 
-GetBatch API Request:
+###### GetBatch API Request:
 
 - Method: POST
 - URL: https://localhost:5001/api/messaging/AckBatch
@@ -51,8 +52,9 @@ GetBatch API Request:
   -Value: Bearer (FOLLOWED BY JWT TOKEN WITHOUT BRACKETS)
 - Body: none
 
+________________________________________________
 
-AckBatch API Request:
+###### AckBatch API Request:
 
 - Method: POST
 - URL: https://localhost:5001/api/messaging/GetBatch
@@ -80,7 +82,7 @@ Postman Collection
 [Use Case 8 ](/RXMessengerAPI.docx)
 ________________________________________________
 
-EditMsgStatus API Request:
+###### EditMsgStatus API Request:
 
 - Method: POST
 - URL: https://localhost:5001/api/messaging/EditMsgStatus
@@ -95,17 +97,46 @@ EditMsgStatus API Request:
   -[
   
         {
-            "messageId": 1,
+            "messageId": (MESSAGE ID TO EDIT STATUS OF),
             
-            "status" : 0
+            "status" : (1 = SENT | 2 = DELIVERED | 3 = FAILED)
         },
         
         {
-            "messageId": 2,
+            "messageId": (MESSAGE ID TO EDIT STATUS OF),
             
-            "status" : 1
+            "status" : (1 = SENT | 2 = DELIVERED | 3 = FAILED)
         }
+        
+        ... YOU CAN HAVE ONE OR MANY MESSAGES IN THIS ARRAY
+       
     ]
+
+________________________________________________
+
+Postman Collection
+[Use Case 10 ](/RXMessengerAPI.docx)
+________________________________________________
+
+###### MessageDump API Request:
+
+- Method: POST
+- URL: https://localhost:5001/api/messaging/MessageDump
+- Content-Type: application/json
+- Headers: 
+  -Key: Content-Type
+  -Value: application/json
+  
+  -Key: Authorization
+  -Value: Bearer (JWT TOKEN)
+- Body: 
+  -{
+	
+    "ClearMessages" : (0 = READ | 1 = REMOVE FROM QUEUE),
+	
+    "Hours" : (TIME IN HOURS TO READ/REMOVE)
+    
+   }
 
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e2eddd8c625f17286b24)

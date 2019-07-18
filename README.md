@@ -10,10 +10,10 @@ To use any of the functionality in the MessengerWebAPI you will need to Authenti
 
 API Keys will be generated at a later stage and Distributed accordingly
 
-- ###### Method: POST
-- ###### URL: https://localhost:5001/api/auth/authenticate
-- ###### Content-Type: application/json
-- ###### Body:
+ ###### Method: POST
+ ###### URL: https://localhost:5001/api/auth/authenticate
+ ###### Content-Type: application/json
+ ###### Body:
   - {
        "apiKey": "",
        "token": null

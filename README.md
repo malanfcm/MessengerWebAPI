@@ -6,6 +6,14 @@ Postman Collection
 [Use Case 7](/RXMessengerAPI.docx)
 ________________________________________________
 
+WEB API:
+
+Method: POST
+
+URL: https://localhost:5001/api/auth/authenticate
+
+Content-Type: application/json
+
 
 ###### Messenger Web API
 Postman Collection

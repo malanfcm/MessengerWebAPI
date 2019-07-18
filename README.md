@@ -8,15 +8,16 @@ ________________________________________________
 
 The below API call
 
--WEB API:
--Method: POST
--URL: https://localhost:5001/api/auth/authenticate
--Content-Type: application/json
+- Method: POST
+- URL: https://localhost:5001/api/auth/authenticate
+- Content-Type: application/json
+- Body:
+  - {
+       "apiKey": "",
+       "token": null
+    }
 
-- George Washington
-- John Adams
-- Thomas Jefferson
-
+________________________________________________
 
 ###### Messenger Web API
 Postman Collection

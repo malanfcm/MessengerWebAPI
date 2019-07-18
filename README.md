@@ -75,4 +75,30 @@ AckBatch API Request:
 
 
 
+###### Use Case 8
+
+EditMsgStatus API Request:
+
+- Method: POST
+- URL: https://localhost:5001/api/messaging/EditMsgStatus
+- Content-Type: application/json
+- Headers: 
+  -Key: Authorization
+  -Value: Bearer (JWT TOKEN)
+- Body: 
+  -[
+        {
+            "messageId": 1,
+            
+            "status" : 0
+        },
+        
+        {
+            "messageId": 2,
+            
+            "status" : 1
+        }
+    ]
+
+
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e2eddd8c625f17286b24)

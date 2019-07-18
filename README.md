@@ -10,17 +10,15 @@ To use any of the functionality in the MessengerWebAPI you will need to Authenti
 
 API Keys will be generated at a later stage and Distributed accordingly
 
- ###### Method: POST
- ###### URL: https://localhost:5001/api/auth/authenticate
- ###### Content-Type: application/json
- ###### Body:
+- Method: POST
+- URL: https://localhost:5001/api/auth/authenticate
+- Content-Type: application/json
+- Headers: none
+- Body:
   - {
-       "apiKey": "",
-       "token": null
+      "apiKey": "",
+      "token": null
     }
-
-
-
 
 ________________________________________________
 
@@ -29,6 +27,17 @@ Postman Collection
 [Use Case 6 / 8 / 10](/RXMessengerAPI.docx)
 ________________________________________________
 
+###### Use Case 6
+
+Test API Request:
+
+- Method: GET
+- URL: https://localhost:5001/api/messaging/Test
+- Content-Type: application/json
+- Headers: 
+  -Key: Authorization
+  -Value: Bearer (FOLLOWED BY JWT TOKEN WITHOUT BRACKETS)
+- Body: none
 
 
 

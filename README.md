@@ -60,6 +60,9 @@ AckBatch API Request:
 - Headers: 
   -Key: Authorization
   -Value: Bearer (JWT TOKEN)
+  
+  -Key: Content-Type
+  -Value: application/json
 - Body: 
   - {
   
@@ -83,6 +86,9 @@ EditMsgStatus API Request:
 - URL: https://localhost:5001/api/messaging/EditMsgStatus
 - Content-Type: application/json
 - Headers: 
+  -Key: Content-Type
+  -Value: application/json
+  
   -Key: Authorization
   -Value: Bearer (JWT TOKEN)
 - Body: 

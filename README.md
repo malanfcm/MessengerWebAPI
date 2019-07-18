@@ -3,16 +3,13 @@
 
 ###### Authentication
 Postman Collection
-Use Case 7
+[Use Case 7](/RXMessengerAPI.docx)
 ________________________________________________
-
-[Contribution guidelines for this project](/RXMessengerAPI.docx)
-
 
 
 ###### Messenger Web API
 Postman Collection
-Use Case 6 / 8 / 10
+[Use Case 6 / 8 / 10](/RXMessengerAPI.docx)
 ________________________________________________
 
 

@@ -1,12 +1,14 @@
 # MessengerWebAPI
 
 
-###### Authentication
+##### Authentication
 Postman Collection
 [Use Case 7](/RXMessengerAPI.docx)
 ________________________________________________
 
-The below API call
+###### To use any of the functionality in the MessengerWebAPI you will need to Authenticate yourself with your APIKey. Once authenticated you will receive back a JWT which is required as a header for all subsequent API Requests.
+
+###### API Keys will be generated at a later stage and Distributed accordingly
 
 - Method: POST
 - URL: https://localhost:5001/api/auth/authenticate
